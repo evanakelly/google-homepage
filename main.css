@@ -95,7 +95,7 @@ button:hover {
     left: 0;
     right: 0;
     background: transparent;
-    line-height: 40px;
+    line-height: 36px;
     border: none;
 }
 
@@ -139,12 +139,12 @@ button:hover {
 
 .right {
     float: right;
-    padding-right: 27px;
+    padding-right: 20px;
 }
 
 .left {
     float: left;
-    padding-left: 27px;
+    padding-left: 20px;
 }
 
 #logo {
@@ -162,4 +162,37 @@ button:hover {
     display: block;
     height: 120px;
     width: 100%;
+}
+
+#sign-in-button {
+    background: #4285f4;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 14px;
+    width: 70px;
+    height: 30px;
+    border-radius: 2px;
+    font-weight: bold;
+    margin-top: 12px;
+    padding: 2px;
+    margin-right: 27px;
+}
+
+#sign-in-button:hover {
+    text-decoration: none;
+    border: none;
+    box-shadow: 0px 0.5px 1px grey;
+}
+
+#app-grid {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    padding-top: 5px;
+    opacity: 0.7;
+}
+
+#app-grid:hover {
+    opacity: 1.0;
 }
